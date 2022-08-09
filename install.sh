@@ -7,6 +7,6 @@ pip --no-cache-dir install pycocotools
 pip --no-cache-dir install pyyaml==3.12 --ignore-installed
 pip --no-cache-dir install tensorboardX
 pip --no-cache-dir install cython==0.27.3
-pip --no-cache-dir install mmcv-full==latest+torch1.6.0+cu101 -f https://openmmlab.oss-accelerate.aliyuncs.com/mmcv/dist/index.html
+pip install mmcv-full==1.6.1 -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html
 
 cd lib && sh make.sh && cd ..
